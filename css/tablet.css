@@ -1,0 +1,159 @@
+    @media screen and (min-width:768px){
+        .container{
+            max-width: 766px;
+    
+        }
+
+        .header-list { 
+            display: flex; 
+            gap: 40px; 
+        }
+        
+
+        .adventages-list {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            row-gap: 72px;
+            
+        
+        }
+
+        .header-adress-list  {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+         
+        }
+        
+        
+
+
+        .adventages-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            min-width: 264px;
+            text-align: left;
+        }
+
+        .advantages-icon {
+            display: none;
+            
+        }
+
+        .adventages-item {
+            width: calc( (100% - 24px) / 2);
+            
+            
+        
+        }
+
+        .our-team-list {
+            display: flex;
+            column-gap: 24px;
+            row-gap: 64px;
+            flex-wrap: wrap;
+        
+        
+            
+        }
+
+        .our-team-item { 
+            width: calc((100% - 24px) / 2);
+            
+            
+        }
+
+        .customers-list {
+            
+            
+        
+        
+        }
+
+        .container-footer{
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 72px;
+            
+        
+        
+        
+            
+        
+        
+        }
+
+        .footer-social-section{
+            margin-left: 24px;
+            margin-right: 80px;
+        }
+
+
+        .footer-section{
+            display: flex;
+        }
+
+        .footer-form-group {
+            display: flex;
+            
+            
+            
+        }
+
+        .footer-input{
+        
+            min-width: 264px;
+        }
+
+        
+        .hero-head {
+            font-size: 56px;
+            line-height: 1.07;
+            
+        }
+
+        .customers-item {
+            width:168px;
+            height: 88px;
+        
+        }
+
+        .hero-saction {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground-imag/tablet-1x.jpg);
+        }
+
+        .modal {
+            width: 408px;
+        
+        
+        }
+
+    
+    }
+
+    @media (min-device-pixel-ratio),
+    (min-resolution:192dpi),
+    (min-resolution:2dpx){
+        .hero-saction {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground-imag/Dark-bg\ 2X.jpg);
+    
+        
+        
+    
+        }
+
+
+    }
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        .container-sm{
+            max-width:552px;
+        }
+        
+
+        
+        
+    }

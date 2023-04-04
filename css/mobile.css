@@ -1,0 +1,92 @@
+@media screen and (min-width:480px){
+    .container {
+        max-width: 426px;
+ 
+    }
+
+    .container-sm{
+        max-width: 294px;
+    }
+
+    .section {
+        padding: 96px 0 96px ;
+
+    }
+
+   
+
+    .adventages-item {
+        width:100%;
+   
+    }
+
+ 
+
+    .our-team-item { 
+    
+        width: 264px;
+    
+    }
+
+    .modal {
+        width: 392px;
+        height: 584px;
+        
+       
+    
+    }    
+
+}
+
+
+@media screen and (max-width:767px) {
+.adventages-text{
+        padding-bottom: 72px;
+
+        
+    
+}
+
+.footer-social-section{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.footer-section{
+    display: block;
+    width: 100%;
+   
+}
+
+.footer-input{
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.footer-form-title{
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+}
+
+.footer-btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+    
+}
+
+
+    
+
+
+@media screen and (max-width:1199px) {
+    
+        
+    }
+    

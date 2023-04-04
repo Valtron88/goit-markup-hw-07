@@ -30,10 +30,42 @@ ul{
 }
 
 .container{
-    width: 1158px;
+    max-width: 426px;
     margin: 0 auto;
     padding: 0 15px;
+    width: 100%;
 }
+
+
+
+.container-sm{
+    max-width: 294px;
+}
+
+@media (min-device-pixel-ratio),
+(min-resolution:192dpi),
+(min-resolution:2dpx){
+    .hero-saction {
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground-imag/modal-dark-1x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        max-width: 1440px;
+        margin: 0 auto;
+        width: 100%;
+        
+        
+       
+    }
+    
+
+}
+
+
+
+
+
 
 .list{
     list-style-type:none;
@@ -44,6 +76,57 @@ ul{
 }
 
 /*-----header--------*/
+
+.nav-wrap-menu{
+    max-width: 458px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 80x 40px 40px 40px;
+    
+}
+
+.menu-burger-btn{
+    width: 32px;
+    height: 22px;
+    background-color: transparent;
+
+}
+
+.menu-close{
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    background: #E7E9FC;
+    opacity: 0.1;
+    border: 1px solid #2E2F42;
+    position: relative;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    
+}
+
+.menu-close-icon{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.burger-icon{
+    fill: rgba(46, 47, 66, 1);
+}
 
 .header {
     padding: 24px 0;
@@ -71,6 +154,7 @@ ul{
     text-transform: uppercase;
     color: var(--brand-color);
     margin-right: 76px;
+    display: none;
 }
 
 .logo-span{
@@ -78,8 +162,9 @@ ul{
 }
 
 .header-list { 
-    display: flex; 
-    gap: 40px; 
+    display: block; 
+    margin-right: auto;
+     
 }
 
 .header-item {
@@ -130,7 +215,7 @@ ul{
 }
 
 .header-adress-list  {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: flex-end;
  
@@ -175,13 +260,14 @@ ul{
 
 
 .hero-saction {
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground-imag/image1.jpg);
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground-imag/modal-dark-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     max-width: 1440px;
     margin: 0 auto;
+    width: 100%;
     
     
    
@@ -190,8 +276,8 @@ ul{
 
 
 .hero-head {
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--white);
@@ -231,7 +317,7 @@ ul{
 /*-----advantages-------*/
 
 .section {
-    padding: 120px 0 120px ;
+    padding: 96px 0 96px ;
 
 
  
@@ -264,34 +350,38 @@ ul{
        
 }
 .adventages-list {
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 72px) / 4);
+    display: block;
+    width: 100%
    
 }
 
 .adventages-item {
+    
    
 }
 
 .adventages-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    min-width: 264px;
+ 
+    text-align: center;
+    
 }
 
 .adventages-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--gray);
+    
 }
 
 .advantages-icon {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
@@ -307,11 +397,13 @@ ul{
 
 .what-we-doing-section {
     padding: 0 0 120px;
+    display: none;
    
 }
 
 
 .what-we-doing-title {
+    display: none;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -321,7 +413,7 @@ ul{
 }
 
 .what-we-doing-list {
-    display: flex;
+    display: none;
     column-gap: 24px;
 
 
@@ -329,9 +421,6 @@ ul{
 
 }
 
-
-.list {
-}
 
 .what-we-doing-item {
     display: block;
@@ -361,9 +450,6 @@ ul{
 
 }
 
-.our-team-container{
-}
-
 .our-team-head {
     font-size: 36px;
     line-height: 1.11;
@@ -374,18 +460,19 @@ ul{
 }
 
 .our-team-list {
-    display: flex;
+    display: block;
     column-gap: 24px;
  
 
     
 }
 
+
 .our-team-item { 
     background:var(--white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 75px) / 4);
+    width: 264px;
     
 }
 
@@ -487,13 +574,14 @@ ul{
     display: flex;
     gap: 24px;
     justify-content: center;
+    flex-wrap: wrap;
     
  
 
 }
 
 .customers-item {
-    width:168px;
+    width:calc((100% - 24px) / 2);
     height: 88px;
    
 }
@@ -545,9 +633,10 @@ ul{
     
     
 }
-
 .container-footer{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
     
    
 
@@ -593,6 +682,11 @@ ul{
 
 .footer-logo-section{
     min-width: 264px;
+    
+}
+
+.footer-social-section{
+
 }
 
 .footer-social-lisst {
@@ -644,14 +738,12 @@ ul{
 
 }
 .footer-form-group {
-    display: flex;
+    display: block;
     
     
     
 }
-.footer-label {
-    
-}
+
 
 .footer-form-title{
     color: var(--white);
@@ -670,7 +762,7 @@ ul{
     line-height: 1.5;
 }
 .footer-input {
-    min-width: 264px;
+  
     max-height: 40px;
     border: 1px solid var(--white);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -714,14 +806,6 @@ ul{
 }
 
 
-    
-
-    
-
-
-
-
-
 .footer-form ::placeholder{
     
     content: "";
@@ -733,8 +817,7 @@ ul{
 }
 
 .footer-social-section{
-    margin-left: 120px;
-    margin-right: 80px;
+   
 }
 
 /*-----/footer-------*/
@@ -827,8 +910,7 @@ ul{
 /*-----cards-------*/
 
 .cards{
-    width: calc((100% - 48px) / 3);
-    padding-bottom: 120px;
+    
 
 }
 
@@ -841,6 +923,7 @@ ul{
 }   
 
 .cards-items {
+    width: calc((100% - 48px) / 3);
     
 }
 
@@ -926,7 +1009,7 @@ ul{
 
 }
 .modal {
-    width: 408px;
+    width: 320px;
     height: 584px;
     
     background-color: var(--white);

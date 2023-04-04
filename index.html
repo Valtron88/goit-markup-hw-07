@@ -10,26 +10,44 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="./css/styles.css">
+            <link rel="stylesheet" href="./css/mobile.css">
+            <link rel="stylesheet" href="./css/tablet.css">
+            <link rel="stylesheet" href="./css/desktop.css">
+    </head>
+    </head>
     </head>
     <body >
         <header class="header">
             <div class="container header-container">
-                <nav class="header-navigation">
-                    <a href="./index.html" class="header-logo link"><span class="logo-span">Web</span>studio</a>
-                    <ul class="header-list list ">
-                        <li class="header-item "><a href="./index.html" class="header-link link active ">Studio</a></li>
-                        <li class="header-item"><a href="./portfolio.html" class="header-link link ">Portfolio</a></li>
-                        <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
-                    </ul>
-                </nav>
-                <address class="header-adress">
-                    <ul class="header-adress-list list">
-                        <li class="header-adress-link"><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
-                        <li class="header-adress-link"><a href="tel:+110001111111" class="header-telephon link">+11 (000) 111-11-11</a></li>
-                    </ul>
-                </address>
+                <button type="button" class="menu-burger-btn">
+                    <svg class="burger-icon" >
+                        <use href="./images/symbol-defs.svg#icon-hamburger"></use>
+                    </svg>
+                </button>
+                <div class="nav-wrap-menu">
+                    <nav class="header-navigation">
+                        <button type="button" class="menu-close">
+                            <svg class="menu-close-icon" >
+                                <use href="./images/symbol-defs.svg#icon-x"></use>
+                            </svg>
+                        </button>
+                        <a href="./index.html" class="header-logo link"><span class="logo-span">Web</span>studio</a>
+                        <ul class="header-list list ">
+                            <li class="header-item "><a href="./index.html" class="header-link link active ">Studio</a></li>
+                            <li class="header-item"><a href="./portfolio.html" class="header-link link ">Portfolio</a></li>
+                            <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <address class="header-adress">
+                        <ul class="header-adress-list list">
+                            <li class="header-adress-link"><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
+                            <li class="header-adress-link"><a href="tel:+110001111111" class="header-telephon link">+11 (000) 111-11-11</a></li>
+                        </ul>
+                    </address>
+                </div>              
             </div>
         </header>
+
         <main class="main">
             <!-- hero saction -->
             <section class="hero-saction ">
@@ -43,7 +61,7 @@
 
             <!--Advantages section 2-->
             <section class="section ">
-                <div class="container">
+                <div class="container ">
                     <h2 class="adventages-head visual-hidden">Advantages</h2>
                     <ul class="adventages-list list">
                         <li class="adventages-item">
@@ -64,7 +82,7 @@
                                 </svg>
                             </div>
                             <h3 class="adventages-title">Punctuality</h3>
-                            <p class="adventages-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                            <p class="adventages-text adventages-text-sm">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                         </li>
 
                         <li class="adventages-item">
@@ -94,7 +112,7 @@
             <section class="what-we-doing-section">
                 <div class="container">
                     <h2 class="what-we-doing-title">What are we doing</h2>
-                    <ul class="what-we-doing-list list">
+                    <ul class="what-we-doing-list ">
                         <li class="what-we-doing-item"><img class="what-we-doing-img" src="./images/images1-1.jpg" alt="foto" width="360"></li>
                         <li class="what-we-doing-item"><img class="what-we-doing-img" src="./images/images2-2.jpg" alt="foto" width="360"></li>
                         <li class="what-we-doing-item"><img class="what-we-doing-img" src="./images/images3-3.jpg" alt="foto" width="360"></li>
@@ -105,7 +123,7 @@
 
             <!--Our Team section 4-->
             <section class="our-team-section section">
-                <div class="container">
+                <div class="container container-sm">
                     <h2 class="our-team-head">Our Team</h2>
                     <ul class="our-team-list list">
                         <li class="our-team-item">
@@ -263,7 +281,7 @@
 
              <!--customers-->
 
-            <section class="section">
+          <section class="section">
                 <div class="container">
                     <h2 class="customers-title">Customers</h2>
                     <ul class="customers-list list" >
@@ -445,6 +463,6 @@
                 
             </div>
         </div>
-        <script src="./js/modal.js"></script>
+        <script src="./js/modal.js"></script>-->
     </body>
 </html>
