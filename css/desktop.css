@@ -221,6 +221,18 @@
     height: auto;
 }
 
+.our-team-list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 64px;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+
+    
+}
+
+
 .our-team-item { 
    
     width: calc((100% - 75px) / 4);

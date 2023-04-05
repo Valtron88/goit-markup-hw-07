@@ -234,7 +234,19 @@
         
         }
 
-       
+        .nav-wrap-menu{
+            background-color: transparent;
+            max-width: unset;
+            height: unset;
+            position: static;
+            display: flex;
+            align-items: center;
+           
+        
+            
+            
+        }
+        
 
     
     }
@@ -262,3 +274,5 @@
         
         
     }
+
+    
