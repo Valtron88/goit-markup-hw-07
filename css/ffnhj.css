@@ -1,0 +1,151 @@
+<div class="header">
+            <div class="container header-container">
+                <button type="button" class="menu-burger-btn">
+                    <svg class="burger-icon" >
+                        <use href="./images/symbol-defs.svg#icon-hamburger"></use>
+                    </svg>
+                </button>
+                <div class="nav-wrap-menu">
+                    <button type="button" class="menu-close">
+                        <svg class="menu-close-icon" >
+                            <use href="./images/symbol-defs.svg#icon-x"></use>
+                        </svg>
+                    </button>
+                    <nav class="header-navigation">
+                        <a href="./index.html" class="header-logo link"><span class="logo-span">Web</span>studio</a>
+                        <ul class="header-list list ">
+                            <li class="header-item "><a href="./index.html" class="header-link link active ">Studio</a></li>
+                            <li class="header-item"><a href="./portfolio.html" class="header-link link ">Portfolio</a></li>
+                            <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <address class="header-adress">
+                        <ul class="header-adress-list list">
+                            <li class="header-adress-link"><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
+                            <li class="header-adress-link"><a href="tel:+110001111111" class="header-telephon link">+11 (000) 111-11-11</a></li>
+                        </ul>
+                    </address>
+                    <ul class="menu-social-list list">
+                        <li class="menu-social-item">
+                            <a href="" class="our-times-social-link">
+                                <svg class="our-tines-social-icon" width="16px" height="16px">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-social-item">
+                            <a href="" class="our-times-social-link">
+                                <svg class="our-tines-social-icon" width="16px" height="16px">
+                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-social-item">
+                            <a href="" class="our-times-social-link">
+                                <svg class="our-tines-social-icon" width="16px" height="16px">
+                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-social-item">
+                            <a href="" class="our-times-social-link">
+                                <svg class="our-tines-social-icon" width="16px" height="16px">
+                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>              
+            </div>
+        </div>
+
+        .nav-wrap-menu{
+            max-width: 458px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 24px 24px 40px 40px;
+            
+            
+        }
+        
+        .menu-burger-btn{
+            width: 32px;
+            height: 22px;
+            background-color: transparent;
+            fill: #2E2F42;
+            
+        
+            
+        
+        }
+        
+        .menu-close{
+            width: 24px;
+            height: 24px;
+            margin-left: auto;
+            background: #E7E9FC;
+            opacity: 0.1;
+            border: 1px solid #2E2F42;
+            cursor: pointer;
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        .menu-close-icon{
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
+        }
+        
+        
+        .burger-icon{
+            fill: rgba(46, 47, 66, 1);
+        }
+        
+
+        .nav-wrap-menu{
+            background-color: transparent;
+            max-width: unset;
+            height: unset;
+            position: static;
+            display: flex;
+            align-items: center;
+           
+
+            
+            
+        }
+
+        .menu-burger-btn{
+           display: none;
+            
+        
+        }
+
+        .menu-close{
+          
+            display: none;
+
+            
+        }
+
+        .menu-social-list{
+            display: none;
+            
+        
+        }

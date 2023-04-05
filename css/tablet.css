@@ -1,8 +1,25 @@
     @media screen and (min-width:768px){
         .container{
             max-width: 766px;
+            
     
         }
+
+        .section {
+            padding: 96px 0 96px ;
+        
+        
+         
+        }
+
+        .section-sm {
+            padding: 96px 0 96px ;
+        
+        
+         
+        }
+        
+        
 
         .header-list { 
             display: flex; 
@@ -31,14 +48,7 @@
         
         
 
-        .adventages-list {
-            display: flex;
-            gap: 24px;
-            flex-wrap: wrap;
-            row-gap: 72px;
-            
-        
-        }
+     
 
         .header {
             padding: 24px 0;
@@ -48,37 +58,7 @@
             height: 72px;
         }
 
-        .nav-wrap-menu{
-            background-color: transparent;
-            max-width: unset;
-            height: unset;
-            position: static;
-            display: flex;
-            align-items: center;
-           
 
-            
-            
-        }
-
-        .menu-burger-btn{
-           display: none;
-            
-        
-        }
-
-        .menu-close{
-          
-            display: none;
-
-            
-        }
-
-        .menu-social-list{
-            display: none;
-            
-        
-        }
 
         .header-adress-list  {
             display: flex;
@@ -116,9 +96,9 @@
 
 
         .adventages-title {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.1;
             letter-spacing: 0.02em;
             min-width: 264px;
             text-align: left;
@@ -136,11 +116,21 @@
         
         }
 
+        .adventages-list {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            row-gap: 72px;
+            
+        
+        }
+
         .our-team-list {
             display: flex;
             column-gap: 24px;
             row-gap: 64px;
             flex-wrap: wrap;
+            max-width: 552px;
         
         
             
@@ -164,6 +154,7 @@
             flex-wrap: wrap;
             row-gap: 72px;
             
+            
         
         
         
@@ -172,9 +163,35 @@
         
         }
 
+        .footer-logo {
+          
+            text-align: left;
+        
+        }
+
+        .footer-logo-section{
+            min-width: 264px;
+            margin-left: 0;
+            margin-right: auto;
+            
+        }
+
+        .footer-social-title{
+            
+            text-align: left;
+    
+        }
+
+        .footer-form-title{
+           
+            text-align: left;
+        
+        }
+        
+
         .footer-social-section{
             margin-left: 24px;
-            margin-right: 80px;
+            
         }
 
 
@@ -217,6 +234,8 @@
         
         }
 
+       
+
     
     }
 
@@ -235,7 +254,7 @@
     }
 
     @media screen and (min-width:768px) and (max-width:1199px) {
-        .container-sm{
+        .container-md{
             max-width:552px;
         }
         
