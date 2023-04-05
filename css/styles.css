@@ -1268,10 +1268,7 @@ ul{
     width: 8px;
     height: 8px;
 }
-.menu-navigation {
-}
-.menu-list {
-}
+
 
 .menu-item {
 }
@@ -1354,7 +1351,7 @@ ul{
 }
 
 .menu-social-list{
-    display: none;
+ display: flex;
     
 
 }
