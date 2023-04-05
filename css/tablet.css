@@ -19,9 +19,14 @@
          
         }
 
+        .header-container{
+            display: flex;
+        }
+        
+
+
+        
         .header-navigation {
-            display: none;
-            align-items: center;
             margin-right:auto;
         }
 
@@ -29,12 +34,14 @@
             display: block;
             align-items: center;
             justify-content: flex-end;
+            
          
         }
 
-        .header-adress-link { 
-            margin-left: 40px;   
-            
+      
+        .header-logo {
+        
+            margin-right: 76px;
         }
 
         .header-link {
@@ -55,27 +62,48 @@
 
         .header-list { 
             display: flex; 
-            gap: 40px; 
+           
         }
 
         .header-mail{
             font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
+            font-size: 12px;
+            line-height: 1.1;
+            display: block;
+            margin-bottom: 12px;
             
             
            
         }
 
+        .header-adress { 
+   
+         
+
+        }
+
+      
+        
+
         .header-telephon{
-            
+            display: block;
             color:var(--gray);
+            font-weight: 400;
             font-size: 12px;
-            line-height: 2;
-            letter-spacing: 0.02em;
+            line-height: 1.1;
+            letter-spacing: 0.04em;
+            color: #434455;
           
             
         }
+
+        .header-navigation {
+
+            margin-right:auto;
+        }
+        
+
+     
         
         
         
@@ -83,21 +111,14 @@
      
 
         .header {
-            padding: 24px 0;
-            border-width: 1px;
-            border-color:var(--footer-text);
-            border-bottom: 1px solid rgba(231, 233, 252, 1);
-            height: 72px;
+            padding: 16px 0;
+           
+            
         }
 
 
 
-        .header-adress-list  {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-         
-        }
+      
 
         .header-link {
             font-weight:500;
@@ -256,19 +277,39 @@
         
         }
 
-        .nav-wrap-menu{
-            background-color: transparent;
-            max-width: unset;
-            height: unset;
-            position: static;
-            display: flex;
-            align-items: center;
-           
-        
-            
-            
+        .menu-burger-btn{
+            position: relative;
+            width: 24px;
+            height: 24px;
+            margin-left: auto;
+            background: var(--footer-text);
+            display: none;
+            border-color: transparent;
+            color: #2E2F42;
         }
         
+        .burger-icon{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            fill: currentColor;
+        
+        }
+
+        
+    .nav-wrap-menu{
+        max-width: 479px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        width: 100vh;
+        padding: 24px 24px 40px 40px;
+        display: none;
+        
+        
+    }
 
     
     }
