@@ -30,7 +30,29 @@
         
        
     
-    }    
+    }  
+
+    .nav-wrap-menu{
+        max-width: 428px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        width: 100vh;
+        padding: 24px 24px 40px 40px;
+        display: block;
+        
+        
+    }
+    
+    .menu-telephon{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        font-style: normal;
+        color: #4D5AE5;
+        margin-bottom: 40px;
+        
+    } 
+    
 
 }
 

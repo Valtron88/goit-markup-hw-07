@@ -90,7 +90,7 @@ ul{
 }
 
 .header-navigation {
-    display: flex;
+    display: none;
     align-items: center;
     margin-right:auto;
 }
@@ -110,26 +110,11 @@ ul{
     color: var(--fiolet);
 }
 
-.header-list { 
-    display: flex; 
-    gap: 40px; 
-}
 
 .header-item {
 }
 
-.header-link {
-    font-weight:500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--brand-color);
-    position: relative;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
+
 
 .header-link:hover,
 .header-mail:hover,
@@ -162,17 +147,8 @@ ul{
 
 }
 
-.header-adress-list  {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
- 
-}
 
-.header-adress-link { 
-    margin-left: 40px;   
-    
-}
+
 
 .header-mail{
     color:var(--gray);
@@ -1239,19 +1215,31 @@ ul{
 }
 
 .menu {
+    width: 320px;
+    
 }
-.container {
+
+.nav-wrap-menu{
+    max-width: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: 100vh;
+    padding: 24px 24px 40px 40px;
+    display: block;
+    
+    
 }
-.header-container {
+
+.menu-navigation{
+    display: block;
 }
-.nav-wrap-menu {
-}
+
 .menu-close {
     width: 24px;
     height: 24px;
     margin-left: auto;
     border-radius: 50%;
-    background: var(--footer-text);
+    background: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
     position: relative;
@@ -1260,6 +1248,15 @@ ul{
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 }
+
+.menu-close:is(:hover, :focus){
+
+    background-color: var(--ocean);
+    fill: var(--white);
+
+}
+
+
 .menu-close-icon {
     top: 50%;
     left: 50%;
@@ -1271,59 +1268,66 @@ ul{
 
 .menu-list{
     display: block;
+    margin-top: 32px;
 }
 
 
 .menu-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
     color: #2E2F42;
+    margin-bottom: 40px;
+}
+
+.menu-list:last-child{
+    margin-bottom: 284px;
 }
 
 .menu-link{
-    color: #000;
+    color: #2E2F42;
 }
-.header-link {
+
+.menu-telephon{
+    font-weight: 500;
+    font-size: 20x;
+    line-height: 1.2;
+    font-style: normal;
+    color: #4D5AE5;
+    margin-bottom: 40px;
+    
+} 
+
+.menu-mail{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    color: #434455;
+
+
 }
-.link {
+
+.menu-adress-list :first-child{
+    margin-bottom: 40px;
 }
-.active {
+
+.menu-link{
+
 }
-.menu-adress {
+
+.menu-social-list{
+    margin-bottom: 0;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    
 }
-.menu-adress-list {
-}
-.menu-adress-link {
-}
-.header-mail {
-}
-.header-telephon {
-   
-}
+
 
 .menu-social-item{
     width: 40px;
     height: 40px;
-}
-
-.container-mn{
-    max-width: 458px;
-    height: 100vh;
-    width: 100%;
-    
-}
-
-.nav-wrap-menu{
-    max-width: 458px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    width: 100vh;
-    padding: 24px 24px 40px 40px;
-    display: block;
-    
-    
-}
-
-.menu-navigation{
-    display: flex;
 }
 
 .menu-burger-btn{
@@ -1346,24 +1350,9 @@ ul{
 
 
 
-.menu-burger-btn{
-   
-    
 
-}
 
-.menu-close{
-  
-    display: flex;
 
-    
-}
-
-.menu-social-list{
- display: flex;
-    
-
-}
 
 
 /*-----/cards-------*/
