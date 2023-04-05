@@ -1269,8 +1269,17 @@ ul{
     height: 8px;
 }
 
+.menu-list{
+    display: block;
+}
+
 
 .menu-item {
+    color: #2E2F42;
+}
+
+.menu-link{
+    color: #000;
 }
 .header-link {
 }
@@ -1338,14 +1347,14 @@ ul{
 
 
 .menu-burger-btn{
-   display: none;
+   
     
 
 }
 
 .menu-close{
   
-    display: none;
+    display: flex;
 
     
 }
