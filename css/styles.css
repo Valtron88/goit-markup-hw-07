@@ -44,7 +44,7 @@ ul{
 
 @media (min-device-pixel-ratio),
 (min-resolution:192dpi),
-(min-resolution:2dpx){
+(min-resolution:2dpi){
     .hero-saction {
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground-imag/modal-dark-1x.jpg);
@@ -1340,7 +1340,7 @@ ul{
 
 .menu-telephon{
     font-weight: 500;
-    font-size: 20x;
+    font-size: 20px;
     line-height: 1.2;
     font-style: normal;
     color: #4D5AE5;
