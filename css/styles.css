@@ -1249,7 +1249,7 @@ ul{
 
 .nav-wrap-menu{
     max-width: 767px;
-    background: #FFFFFF;
+    background: var(--white);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     width: 100vh;
     padding: 24px 24px 40px 40px;
@@ -1257,18 +1257,18 @@ ul{
     width: 100%;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+   
     
     
 }
 
 .nav-wrap-menu.is-open {
-    opacity: 1;
-    visibility: hidden;
-    pointer-events: none;
+    
     transform: translateX(0);
   }
 
@@ -1276,7 +1276,7 @@ ul{
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    color: var(--white);
   }
   
 
@@ -1326,7 +1326,7 @@ ul{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    color: #2E2F42;
+    color: var(--brand-color);
     margin-bottom: 40px;
 }
 
@@ -1335,7 +1335,7 @@ ul{
 }
 
 .menu-link{
-    color: #2E2F42;
+    color: var(--brand-color);
 }
 
 .menu-telephon{
@@ -1343,7 +1343,7 @@ ul{
     font-size: 20px;
     line-height: 1.2;
     font-style: normal;
-    color: #4D5AE5;
+    color: var(--fiolet);
     margin-bottom: 40px;
     
 } 
@@ -1353,7 +1353,7 @@ ul{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
-    color: #434455;
+    color: var(--gray);
 
 
 }
@@ -1371,6 +1371,8 @@ ul{
     margin-top: 48px;
     display: flex;
     justify-content: center;
+    gap:20px;
+
     
 }
 
@@ -1378,11 +1380,12 @@ ul{
 .menu-social-item{
     width: 40px;
     height: 40px;
+
 }
 
 .menu-burger-btn{
     
-    color: #2E2F42;
+    color: var(--brand-color);
     
 
     
