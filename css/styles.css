@@ -644,12 +644,7 @@ ul{
     margin-left: 0;
 }
 
-.footer-logo-section{
-    min-width: 264px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 
 .footer-social-section{
 
@@ -1352,8 +1347,8 @@ ul{
 }
 
 .menu-telephon{
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 1.2;
     font-style: normal;
     color: var(--fiolet);

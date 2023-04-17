@@ -29,7 +29,18 @@
             
            
         
-        }  
+        } 
+        
+        .menu-telephon{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.2;
+          
+          
+            
+        } 
+
+
 
     }
 
@@ -78,6 +89,22 @@
     }
 
 
+
+    .footer-section{
+        display: block;
+        width: 100%;
+       
+    }
+
+    .footer-logo-section{
+        min-width: 264px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+
    
 
         
@@ -90,11 +117,7 @@
     
 }
 
-.footer-section{
-    display: block;
-    width: 100%;
-   
-}
+
 
 .footer-input{
     margin-bottom: 16px;
@@ -113,6 +136,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
  
     

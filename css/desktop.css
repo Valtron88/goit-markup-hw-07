@@ -310,6 +310,7 @@
 
 .container-footer{
     display: flex;
+    flex-wrap: nowrap;
     
    
 
@@ -318,6 +319,16 @@
 
 
 }
+
+.footer-logo-section{
+    min-width: 264px;
+    
+    margin-right: 0;
+    
+    
+    
+}
+
 
 
 .footer-social-section{
