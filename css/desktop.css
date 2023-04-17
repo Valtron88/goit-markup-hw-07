@@ -101,7 +101,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 40px; 
+    margin-left: 0px; 
  
 }
 
@@ -146,7 +146,7 @@
 
 .adventages-title {
     font-weight: 500;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.2;
 
     
@@ -435,7 +435,6 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 40px; 
     margin-bottom: unset; 
    
 }
@@ -449,8 +448,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 40px;
     
+    
+}
+
+.header-adress-link:last-child{
+    margin-left: 40px;
 }
 
 

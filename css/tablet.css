@@ -252,6 +252,11 @@
         .footer-input{
         
             min-width: 264px;
+            margin-bottom: 0px;
+        }
+
+        .footer-btn{
+            margin-left: 24px;
         }
 
         
